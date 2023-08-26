@@ -30,7 +30,8 @@
 <body>
 
   <audio id="song">
-    <source src="sound/yt1s.com - Freddie Mercury  Love Me Like Theres No Tomorrow Official Lyric Video.mp3" type="audio/mp3">
+    <source src="sound/yt1s.com - Freddie Mercury  Love Me Like Theres No Tomorrow Official Lyric Video.mp3"
+      type="audio/mp3">
   </audio>
 
   <section id="hero"
@@ -454,15 +455,15 @@
 
   <script>
     const stickyTop = document.querySelector('.sticky-top');
-    const offcanvas = document.querySelector('.offcanvas');
+    const offcanvas= document.querySelector('.offcanvas');
 
     offcanvas.addEventListener('show.bs.offcanvas', function () {
       stickyTop.style.overflow = 'visible';
     });
-
+    
     offcanvas.addEventListener('hidden.bs.offcanvas', function () {
       stickyTop.style.overflow = 'hidden';
-    });
+    })
 
 
   </script>
